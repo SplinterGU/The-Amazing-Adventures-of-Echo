@@ -1,0 +1,8 @@
+CONST
+	_CTE_MAX_VOLUME	= 128;
+	_CTE_MIN_VOLUME	= 0;
+END
+
+GLOBAL
+	int global_vol;
+END

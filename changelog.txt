@@ -1,0 +1,94 @@
+CHANGELOG
+
+Version 1.0:
+
+-The main game.
+
+Version 1.1:
+
+-Kill all remaining enemies process in event 3.1.
+-Grab items zone made wider.
+-Can use pause menu even if Echo is freeze.
+-Solved a random crash in event 1-1.
+-Put a door at the end of first screen to avoid pass to next without getting Blue Star.
+-Put a wall on the start of 3rd screen of first level, and second level, to avoid Echo falls for try to return to previous level.
+-Add savegame.
+-Add arrows on start menu to indicate that it is a menu.
+-The dragon body moves when you hit it a lot.
+-Shortening the life of the bosses, by popular demand.
+-When big cannon is destroyed, it follows the screen until dissapear.
+-Added name and mail to main screen.
+-Get sword sounds.
+
+Version 1.2
+-Fix joypad use on PC
+-Add configuration menu.
+-Change music of Bosses of level 2 (they are changed)
+-Changed the way the levels are executed (now you can play in random order if you want)
+-Savegame now save items (and its position) you get in a level
+
+Version 1.3
+-Added a global save for unlockable content (still not in use).
+-Fix unload sfx on level 2.
+-Fix Z on Max Energy Increased event.
+-Autoselect of first weapon you get.
+-Fix height of murphys when following Echo.
+-Added new graphics for level 1.
+-Added new graphics for level 2.
+-Added new graphics for level 3-1.
+-Added a game options menu, for select graphics, frameskip and view a foreground/background scroll
+ (foreground/background scroll not yet implemented).
+-Echo now can dive in water.
+-Added a syncronize proccess.
+-Added feature for add animated objects for decoration (with or without sync).
+-Added feature for add water tiles (they put in front of echo with transparency).
+-Added level 3-1.
+-Added level 3-2.
+-Added code to save in middle of map (only put on level 3-2).
+-Fix animation of big aliens robots.
+-Enemy Guerrilla sleeps if is far from visible screen.
+-Changed savegame format with more info for future checks.
+-Added an optimize map function to minimize number of tiles on screen (it groups equals tiles).
+
+Version 1.3.1
+-Total code reorganization.
+-Fixed some save bugs.
+-Added an indicator of how to grab items (finally!).
+-Added bosses' names.
+-Dead event is faster now.
+-Added an epiloge after credits (finally!).
+-Fixed some pause bugs.
+-Fixed interface.
+-Changed colours on classic interface for better view.
+-Some minors graphics changes.
+-Fixed double Echo during new weapon event.
+-Added backgrounds to (almost) all levels.
+-Added foreground to first level.
+
+Version 1.3.3
+-Solved when Echo stops his x speed when colliding with ceiling.
+-Solved enter in pasages with 1 tile heights.
+-Changed numeric distances with hardness with constants.
+-Added code to change resolution if is playing on Dreamcast.
+-Added code to add default controls on Dreamcast.
+-Solved Echo bounce when touching ground.
+-Solved Echo teletransporting into a wall near him when falling.
+-Solved echo teletransporting up in ramps.
+-Added level select menu (incomplete)
+-Play_level now admits episode, chapter and checkpoint as init parameters.
+-Added checkpoint/init point of chapter-level to the savegame file.
+-Solved Echo bounce when touching ground in water.
+-Solved when enemy stops his x speed when colliding with ceiling
+-Solved enemy teletransporting into a wall near him when falling
+
+Version 1.3.4 (10th anniversary)
+-Added RG350 OpenDingux compatibility code (may work with other OpenDingux consoles).
+-Added RG350 OpenDingux key configuration (next and prev weapons are reversed).
+-Added "-OS_ID=" parameter to force OS mode, for OpenDingux handhelds that are recognized as Linux OS.
+-Added platforms that breaks when stand on them.
+-Added platformas that moves when stand on them.
+-Now level 3-2 is level 4.
+-Level 3 has a new level 3-2 (still working on level 3-3 and boss).
+-Lava as a new hazzard.
+-Solved fliying enemies going through floors.
+-Solved some missing tiles and graphic files on stylish graphics.
